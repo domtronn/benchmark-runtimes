@@ -1,0 +1,57 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:react": "npm:react@18.2.0",
+      "npm:react-dom": "npm:react-dom@18.2.0_react@18.2.0",
+      "npm:react-dom@^18": "npm:react-dom@18.2.0_react@18.2.0",
+      "npm:react-dom@^18.2.0": "npm:react-dom@18.2.0_react@18.2.0",
+      "npm:react@^18.2.0": "npm:react@18.2.0"
+    },
+    "npm": {
+      "js-tokens@4.0.0": {
+        "integrity": "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==",
+        "dependencies": {}
+      },
+      "loose-envify@1.4.0": {
+        "integrity": "sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==",
+        "dependencies": {
+          "js-tokens": "js-tokens@4.0.0"
+        }
+      },
+      "react-dom@18.2.0_react@18.2.0": {
+        "integrity": "sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==",
+        "dependencies": {
+          "loose-envify": "loose-envify@1.4.0",
+          "react": "react@18.2.0",
+          "scheduler": "scheduler@0.23.0"
+        }
+      },
+      "react@18.2.0": {
+        "integrity": "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==",
+        "dependencies": {
+          "loose-envify": "loose-envify@1.4.0"
+        }
+      },
+      "scheduler@0.23.0": {
+        "integrity": "sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==",
+        "dependencies": {
+          "loose-envify": "loose-envify@1.4.0"
+        }
+      }
+    }
+  },
+  "redirects": {
+    "https://esm.sh/react-dom/server": "https://esm.sh/react-dom@18.2.0/server",
+    "https://esm.sh/react/jsx-runtime": "https://esm.sh/react@18.2.0/jsx-runtime",
+    "https://esm.sh/v128/@types/react@~18.2/jsx-runtime~.d.ts": "https://esm.sh/v128/@types/react@18.2.21/jsx-runtime~.d.ts",
+    "https://esm.sh/v132/@types/react-dom@~18.2/server~.d.ts": "https://esm.sh/v132/@types/react-dom@18.2.8/server~.d.ts"
+  },
+  "remote": {
+    "https://esm.sh/react-dom@18.2.0/server": "9051a605acc3a99f9e809db4726acebda1ad1bd460b793b57c391e5e7f42479a",
+    "https://esm.sh/react@18.2.0/jsx-runtime": "914a55a07c388d345c5a0c11616ee5282242e8b8dfd0d505b83500ea04fd9870",
+    "https://esm.sh/stable/react@18.2.0/denonext/jsx-runtime.js": "54d8a51c6ca025380abd2d5302e4a9b38ff835d9759c4657e52314f587eaf6bf",
+    "https://esm.sh/stable/react@18.2.0/denonext/react.mjs": "3c4f23bcfc53b256fcfaf6f834fa9f584c3bb7be667b2682c6cb6ba8ef88f8e6",
+    "https://esm.sh/v132/react-dom@18.2.0/denonext/server.js": "0460557cf83e61c275692fc0b9b22837cad662db116c048e354eac3109f8b326"
+  }
+}
