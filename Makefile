@@ -1,6 +1,9 @@
 # Phony targets to ensure commands always run
 .PHONY: install run
 
+# Default value for ITER
+ITER ?= 40
+
 # The install command
 install:
 	@echo "Installing for bun..."
@@ -12,10 +15,10 @@ install:
 # The run command
 run:
 	@echo "Running main.tsx with bun..."
-	cd bun && bun run main.tsx
+	cd bun && ITER=$(ITER) bun run main.tsx
 
 	@echo "Running main.mjs with node..."
-	cd node && node main.mjs
+	cd node && ITER=$(ITER) node main.mjs
 
 	@echo "Benchmarking main.tsx with deno..."
-	cd deno && deno bench --allow-env main.tsx
+	cd deno && ITER=$(ITER) deno bench --allow-env main.tsx
