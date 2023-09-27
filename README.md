@@ -40,5 +40,5 @@ renderToString(
 
 ```
 make install
-make run # ITER=40 - Number of iterations of fibonacci to call
+make bench # ITER=40 - Number of iterations of fibonacci to call
 ```

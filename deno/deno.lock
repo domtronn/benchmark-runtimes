@@ -42,16 +42,22 @@
     }
   },
   "redirects": {
+    "https://esm.sh/preact": "https://esm.sh/preact@10.17.1",
+    "https://esm.sh/preact-render-to-string": "https://esm.sh/preact-render-to-string@6.2.1",
     "https://esm.sh/react-dom/server": "https://esm.sh/react-dom@18.2.0/server",
     "https://esm.sh/react/jsx-runtime": "https://esm.sh/react@18.2.0/jsx-runtime",
     "https://esm.sh/v128/@types/react@~18.2/jsx-runtime~.d.ts": "https://esm.sh/v128/@types/react@18.2.21/jsx-runtime~.d.ts",
     "https://esm.sh/v132/@types/react-dom@~18.2/server~.d.ts": "https://esm.sh/v132/@types/react-dom@18.2.8/server~.d.ts"
   },
   "remote": {
+    "https://esm.sh/preact-render-to-string@6.2.1": "d20013118266cc993f95938f238e4befbbf2b7af0f63205ff36d063410c28c65",
+    "https://esm.sh/preact@10.17.1": "d9d10d95cd047fd2c26bb68e760a87d3747fafc64a1e54049095682c69c7491a",
     "https://esm.sh/react-dom@18.2.0/server": "9051a605acc3a99f9e809db4726acebda1ad1bd460b793b57c391e5e7f42479a",
     "https://esm.sh/react@18.2.0/jsx-runtime": "914a55a07c388d345c5a0c11616ee5282242e8b8dfd0d505b83500ea04fd9870",
+    "https://esm.sh/stable/preact@10.17.1/denonext/preact.mjs": "0f2f159289b4502eea839f4b57cef910ad03d63213ac5301e6767326b060d8f6",
     "https://esm.sh/stable/react@18.2.0/denonext/jsx-runtime.js": "54d8a51c6ca025380abd2d5302e4a9b38ff835d9759c4657e52314f587eaf6bf",
     "https://esm.sh/stable/react@18.2.0/denonext/react.mjs": "3c4f23bcfc53b256fcfaf6f834fa9f584c3bb7be667b2682c6cb6ba8ef88f8e6",
+    "https://esm.sh/v132/preact-render-to-string@6.2.1/denonext/preact-render-to-string.mjs": "72732eaecb1247c305752031dbe479312ede8899f5915f3d1dbdfe686b74a3b2",
     "https://esm.sh/v132/react-dom@18.2.0/denonext/server.js": "0460557cf83e61c275692fc0b9b22837cad662db116c048e354eac3109f8b326"
   }
 }

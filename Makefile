@@ -13,11 +13,11 @@ install:
 	cd node && pnpm i
 
 # The run command
-run:
-	@echo "Running main.tsx with bun..."
+bench:
+	@echo "Benchmarking main.tsx with bun..."
 	cd bun && ITER=$(ITER) bun run main.tsx
 
-	@echo "Running main.mjs with node..."
+	@echo "Benchmarking main.mjs with node..."
 	cd node && ITER=$(ITER) node main.mjs
 
 	@echo "Benchmarking main.tsx with deno..."
